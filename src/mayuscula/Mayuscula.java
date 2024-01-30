@@ -12,11 +12,13 @@ public class Mayuscula {
         
         if (Character.isUpperCase(letra)) 
         {
-
+            JOptionPane.showMessageDialog(null, "La letra es Mayuscula: ");
         } else 
         {
-
+            JOptionPane.showMessageDialog(null,"La letra no es  Minuscula: ");
         }
+        
+        
     }
 
 }
