@@ -9,11 +9,13 @@ public class Mayuscula {
         char letra;
         //le pedimos al usuario que nos diguite una letra
         letra = JOptionPane.showInputDialog("Digita una letra").charAt(0);
-        
+        //EN caso de que sea maysucula
         if (Character.isUpperCase(letra)) 
         {
             JOptionPane.showMessageDialog(null, "La letra es Mayuscula: ");
-        } else 
+        } 
+        else 
+            // CASO DE QUE SEA MINUSCULA
         {
             JOptionPane.showMessageDialog(null,"La letra no es  Minuscula: ");
         }
